@@ -1,0 +1,966 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A Bridle for the tongue: or, The trial and condemnation of Whispering-Backbiter. Being a profitable and pleasant discourse, designed as an essay to detect the sin of detraction, an evil too common in this age.</title>
+            <author>E. P.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1700</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 69 KB of XML-encoded text transcribed from 23 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2014-11">2014-11 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A77383</idno>
+            <idno type="STC">Wing B4494A</idno>
+            <idno type="STC">ESTC R173265</idno>
+            <idno type="EEBO-CITATION">45578183</idno>
+            <idno type="OCLC">ocm 45578183</idno>
+            <idno type="VID">172138</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A77383)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 172138)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 2615:33)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A Bridle for the tongue: or, The trial and condemnation of Whispering-Backbiter. Being a profitable and pleasant discourse, designed as an essay to detect the sin of detraction, an evil too common in this age.</title>
+                  <author>E. P.</author>
+               </titleStmt>
+               <extent>44, [1] p.   </extent>
+               <publicationStmt>
+                  <publisher>[Pri]nted for the author, and sold by M. Fabian at Mercers-Chappel in Cheapside,</publisher>
+                  <pubPlace>London; :</pubPlace>
+                  <date>1700.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>"To the cordial and single-hearted reader" signed: E.P.</note>
+                  <note>Reproduction of original in the Bodleian Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Libel and slander --  Early works to 1800.</term>
+               <term>Gossip --  Early works to 1800.</term>
+               <term>Conduct of life --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2013-09</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2013-10</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2014-01</date>
+            <label>Olivia Bottum</label>Sampled and proofread</change>
+         <change>
+            <date>2014-01</date>
+            <label>Olivia Bottum</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2014-03</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:172138:1" rendition="simple:additions"/>
+            <p>A Bridle for the Tongue: OR, THE Trial and Condemnation OF WHISPERING-BACKBITER.</p>
+            <p>Being a profitable and pleaſant Diſcourſe, deſigned as an ESSAY to detect the Sin of Detraction, an Evil too common in this Age.</p>
+            <q>If any Man among you ſeem to be religious, and bridleth not his Tongue,—this Man's Religion is vain:
+<bibl>James 1. 26.</bibl>
+            </q>
+            <q>
+               <hi>landerous and malicious words diſcover the Evil of the Heart.</hi> 
+               <bibl>Ariſtotle.</bibl>
+            </q>
+            <q>have opened my Mouth in a Parable:
+<bibl>Pſal. 78. 2</bibl>
+            </q>
+            <q>And uſed Similitudes;
+<bibl>Hoſea 12. 10.</bibl>
+            </q>
+            <p>
+               <hi>LONDON;</hi> Printed for the Author, and ſold by <hi>M. Fabian</hi> at <hi>Mercers</hi>-Chappel in <hi>Cheapſide</hi> 1700.</p>
+         </div>
+         <div type="to_the_reader">
+            <pb facs="tcp:172138:2"/>
+            <pb n="3" facs="tcp:172138:2"/>
+            <head>To the Cordial and Single-hearted READERS.</head>
+            <opener>
+               <salute>My Friends and Country-men;</salute>
+            </opener>
+            <p>THIS ſmall Tract was at ſpare times committed to Writing ſome years ago, with thoughts of ſending it out into the World, but it was obſtructed by a twofold Diſ<g ref="char:EOLhyphen"/>couragement: <hi>Firſt,</hi> Its vulgar Habit, or plain Dreſs, it being deſtitute of thoſe high ſtrains of Rhetorical Flouriſhes now in faſhion; this, together with the Coſt of changing the Character from Manu<g ref="char:EOLhyphen"/>ſcript into Print, ſo powerfully check'd my Intentions, that I laid it by to ſleep; but ſome having read it, and others having heard of it, have incouraged me to awake it, and ſend it forth into the World in its plain Dealing and mean Dreſs; ſo that I am willing to run the hazard both of its acceptance and ſucceſs: Know<g ref="char:EOLhyphen"/>ing before-hand, there are ſome hard to be humoured in point of Curioſity, and others ſo ſowr that nothing can pleaſe. We may alſo meet with ſome that will only ſtudy to cavil and pick Quarrels with it; but I am reſolv'd before-hand to take no notice of it, knowing that one of the beſt ways to kill an Injury is by Con<g ref="char:EOLhyphen"/>tempt. Cordial Reader, to ſuch I ſend it: know this, that the Tongue is that inſtrumental Member, by which Words are utter'd. <hi>Solomon</hi> informs us, That <hi>Life and Death are in the power of the Tongue,</hi> Prov. 18. 21. So that it's either a Tree of Life, <hi>Prov. 15. 4.</hi> or a ſharp Sword, <hi>Pſal. 64. 3.</hi> If the Tongue be a Fire, that is, either lighted with a Coal
+<pb n="4" facs="tcp:172138:3"/> from God's Altar, or elſe is ſet on fire of Hell, <hi>James 3. 6.</hi> if not guided by the Bridle of God's Word; it's only thoſe that have been under the Laſh of that Rod that are beſt capable to judg of the Smart. I would not be taken for one that meaſures Mens Worth by their Applauſe or Eſteem amongst the Vul<g ref="char:EOLhyphen"/>gar: for common Report hath many times a Bliſter upon the Tongue. Some there are that can find no medium when they are diſpoſed to make others the Subject of their Diſcourſe, but muſt either Diabolize them, or Canonize them for Saints: Like thoſe barba<g ref="char:EOLhyphen"/>rous <hi>Highlanders</hi> concerning <hi>Paul,</hi> Acts 28. 4-6. Ei<g ref="char:EOLhyphen"/>ther they are Murderers, and ſo the worſt of Men; or elſe that the Gods are come down. Some are of ſo un<g ref="char:EOLhyphen"/>lucky a Diſpoſition, that they can ſport themſelves in playing the Butcher with the Reputation of others; like that cruel Duke of <hi>Savoy,</hi> that took pleaſure in blinding and tormenting the innocent Birds: There are others whoſe Words do eat like a Canker, more privately. <hi>Eliphas</hi> counts it a Mercy to be hid from the Scourge of the Tongue, <hi>Job 15. 21.</hi> Yet, Rea<g ref="char:EOLhyphen"/>der, if it be thy lot, be not too impatient under it; it may, by the good Providence of God, prove a Scourge to drive thee cloſer to thy Duty, and nearer to him. Let me deſire thee to peruſe theſe enſuing Lines without prejudice, and take up the ſame Reſo<g ref="char:EOLhyphen"/>lution with holy <hi>David, Pſal. 39. 1.</hi> do not offend with thy Tongue, keep thy Mouth as with a Bridle. So I commend it to thy peruſal, who am a Friend to all Lovers of Truth and Peace,</p>
+            <closer>
+               <signed>E. P.</signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb n="5" facs="tcp:172138:3"/>
+            <head>A Brief NARRATIVE of the Appre<g ref="char:EOLhyphen"/>hending, Trial, and Condemnation of <hi>Whiſpering-Backbiter.</hi> Written by the Author in the Country, in a Letter to his Friend in the City.</head>
+            <opener>
+               <salute>Honoured Sir;</salute>
+            </opener>
+            <p>I Give you Thanks for your laſt obliging Lines; I have nothing of moment to communicate to you, ſave only the Detection of a miſ<g ref="char:EOLhyphen"/>chievous Criminal, who it ſeems was ap<g ref="char:EOLhyphen"/>pearing in Diſguiſe, admitted a Freeman of our Corporation of <hi>Chriſt-Church,</hi> and hath inſenſibly infected not only our Corporation, but alſo the whole Country of <hi>Chriſtianity.</hi> Tho I doubt not but you have heard of the miſchievous Effects of his pernicious Acts, yet I preſume it will not be ungrateful to you, if I give you a Breviate of the whole Proceedings againſt him in theſe Parts: Which, as near as I could collect, take as follows.</p>
+            <p n="1">1. His Father was of the City of <hi>Crete;</hi> and you know it upon Record, <hi>Titus</hi> 1. 12. that the <hi>Cretians</hi> were always Liars; and his Mother was an <hi>Athenian,</hi> whoſe Cuſtom it was to hear and tell ſome new thing, <hi>Acts</hi> 17. 21. They having only one Child, who much reſembled them both, they jointly agreed to call his Name <hi>Whiſpering-Backbiter:</hi>
+               <pb n="6" facs="tcp:172138:4"/> and tho, Sir, you know that ſome<g ref="char:EOLhyphen"/>times pious Parents have a wicked Offspring; for Grace is not entail'd to natural Deſcent; ſo wicked Parents may have pious Children. Even ſo it was hoped that <hi>Whiſpering-Backbiter</hi> had ſeen the Evil of his Parents ways, and was ſo far ſeemingly reform'd, that he renounc'd the Name given him by his Parents, and enter'd himſelf a Freeman of the Corporation of <hi>Chriſt-Church,</hi> &amp;c. reſolving upon a Reformation, he ingag'd to be a true Subject thereof, and perform'd his Corpora<g ref="char:EOLhyphen"/>tion-Vow for a time, being aſham'd of his for<g ref="char:EOLhyphen"/>mer Name, and ſaw that the Freemen of Chriſt's Church muſt not act like either the <hi>Cretians</hi> or <hi>Athenians:</hi> Neither would the Corporation of <hi>Chriſt-Church</hi> allow his Nature to anſwer to his former Name, of <hi>Whiſpering-Backbiter,</hi> it be<g ref="char:EOLhyphen"/>ing directly oppoſite to his new Name of <hi>Chri<g ref="char:EOLhyphen"/>ſtianity:</hi> Moreover, he had been both inſtructed into, and had often read over the Charter of our Corporation. But,</p>
+            <p n="2">2. In the next place, <hi>Chriſtianity</hi> is an honoura<g ref="char:EOLhyphen"/>ble Name; ſo many lay claim to it, without juſt Title, as was too evident in this ſeeming Con<g ref="char:EOLhyphen"/>vert, who only chang'd his Name, but his Nature was not changed, and he trod in the ſteps of his natural, but degenerate Parents; we hoped he had been in love with the Work in uſe in our Corpo<g ref="char:EOLhyphen"/>ration of <hi>Chriſt-Church,</hi> namely, the mortifying of Corruptions, and a crucifying of the Fleſh, with the Affections and Luſts thereof; <hi>Rom. 8. 13. Gal.</hi> 5. 2. tho alas, he quickly grew weary of
+<pb n="7" facs="tcp:172138:4"/> this Work, and inclin'd to the ſteps of his Pa<g ref="char:EOLhyphen"/>rents, tho there had been no want of Means to inſtruct him, that the Snuffers of the Sanctuary muſt be of pure Gold, yea and the Snuff-diſhes alſo, to ſhew that the Reporters and Receivers of others faults muſt be ſure to be innocent themſelves, <hi>Exod.</hi> 37. 23. But alas, he would pick up Reports right or wrong, true or falſe, and diſperſe them for currant Coin, tho in a diſ<g ref="char:EOLhyphen"/>guiſe, till it came at laſt to be diſcovered, by that great ſtrangeneſs and want of Love that hath ap<g ref="char:EOLhyphen"/>peared in the ſeveral Companies of our Corpora<g ref="char:EOLhyphen"/>tion. But there having ſome diſcovery been made of the prepoſterous Criminal, Information was given to the Recorder of our City and Cor<g ref="char:EOLhyphen"/>poration, the honourable Mr. <hi>Church-Diſcipline,</hi> who gave ſpeedy Information to the Lord Chief Juſtice <hi>Fear-God,</hi> who is one ready to right the wronged, and to repair the damaged: So he forthwith grants his Warrant, iſſued out under the Great Seal, and by the Authority of our Sove<g ref="char:EOLhyphen"/>raign, to ſeize and apprehend the Criminal. The Warrant, as I remember, runs thus, or to this effect.</p>
+            <floatingText xml:lang="eng" type="warrant">
+               <body>
+                  <p>
+                     <hi>TO all Mayors, Sheriffs, Juſtices of the Peace, Conſtables and Headboroughs, in this our Corporation of</hi> Chriſt-Church, <hi>and Country of</hi> Chriſtianity: <hi>Whereas Information hath been given in to the Recorder of our City and Corporation, the honourable Mr.</hi> Church-Diſcipline, <hi>of the un<g ref="char:EOLhyphen"/>lawful Practice, and ill-behaviour of a miſchievous
+<pb n="8" facs="tcp:172138:5"/> Member of our Corporation, who is properly known by the Name of</hi> Whiſpering-Backbiter, <hi>who for ſometime hath gone about ſowing Contention, de<g ref="char:EOLhyphen"/>ſtroying of <g ref="char:V">Ʋ</g>nity, and breaking the Peace of our Corporation and Commonwealth. This is therefore, by the Authority aforeſaid, to will and require you, and every of you, upon ſight hereof, forthwith to make diligent ſearch in your reſpective Liberties for the Criminal aforeſaid—And when you have ſeized him, have him before the next Juſtice of the Peace, in order to his Commitment to the next Priſon, to anſwer to ſuch Crimes as are laid to his Charge the next Seſſions of the Peace, to be holden in our Corporation: And herein you are not to fail.</hi> Signed by me L. C. J. <hi>Fear-God.</hi>
+                  </p>
+               </body>
+            </floatingText>
+            <p>This Warrant was ſent to the High-Conſtable of the Hundred of <hi>Try-all,</hi> his Name was <hi>Exami<g ref="char:EOLhyphen"/>nation;</hi> who having received the Warrant, takes with him the Petty-Conſtable, or Headborough, whoſe Name was <hi>Prove-all:</hi> So they ſearch'd their own Houſes firſt, as reſolving to ſee they were clear of <hi>Backbiter</hi> at home, before they went to look for him abroad. Firſt, Becauſe they would give no offence to their Neighbours, by any ſhew of Partiality. And, ſecondly, Becauſe they that are clear at home, are the fitteſt to examine and prove others. Thus they went, taking the Houſes in order till they came almoſt through the Sub<g ref="char:EOLhyphen"/>urbs of our Corporation; they took up one on ſuſpicion, her Name proved to be Mrs. <hi>Buſi<g ref="char:EOLhyphen"/>body;</hi> and a Man alſo, for this <hi>Whiſpering-Back<g ref="char:EOLhyphen"/>biter</hi>
+               <pb n="9" facs="tcp:172138:5"/> goes ſometimes in Mens Apparel, and ſome<g ref="char:EOLhyphen"/>times in Womens: this Mrs. <hi>Buſibody</hi>'s Houſe was all out of order, and they asking her why ſhe let her Houſe lie ſo, ſhe ſaid ſhe had ſo much bu<g ref="char:EOLhyphen"/>ſineſs abroad, that ſhe had no time to ſet in order things at home; ſo the Conſtable reproved her, telling her that the Lord of our Country allows of no ſuch Cuſtom, <hi>Luke</hi> 6. 41. and will have his Sub<g ref="char:EOLhyphen"/>jects to caſt away their own Beam, before they look abroad for the Mote of others, ſhewing her it was diſhonourable to our Soveraign. The Man they took up on ſuſpicion, his Name was Mr. <hi>Liar,</hi> ſo they examin'd him, and found him in many falſe Stories; and then they asked him, if he knew one <hi>Whiſpering-Backbiter,</hi> that liv'd there or thereabouts: Yes, ſaid <hi>Liar,</hi> I know him to be a good orderly Perſon, and a Chriſtian too, and is reſpected and entertained by ſeveral in our Sub<g ref="char:EOLhyphen"/>urbs; he is my near Kinſman, we are Brothers and Siſters Children; my Mother was a <hi>Cretian,</hi> and ſo was his Father; good People, ſaith <hi>Liar.</hi>
+            </p>
+            <sp>
+               <speaker>Conſtable.</speaker>
+               <p>Shew me where your Kinſman lives.</p>
+               <p>No, ſaid <hi>Liar,</hi> I know you have ſome wicked deſign. So they ſharply reprov'd <hi>Liar,</hi> and went on; and as they paſſed along, they met with a Freeman's Wife of the Corporation, whoſe Name was <hi>Godly Jealouſy:</hi> they enquired of her for <hi>Backbiter</hi>'s Houſe; ſhe ſhakes her Head, wiſhing that Corruption of the Fleſh, and Deluſion of the wicked one were deſtroyed, that the Spirit may be ſaved in the day of the Lord.</p>
+            </sp>
+            <sp>
+               <speaker>Conſtable.</speaker>
+               <p>That is deſign'd by our Soveraign.</p>
+            </sp>
+            <sp>
+               <pb n="10" facs="tcp:172138:6"/>
+               <speaker>Jealouſy.</speaker>
+               <p>You muſt go towards the outſide of the Suburbs, and enquire for <hi>Prittle-prattle<g ref="char:EOLhyphen"/>ſtreet,</hi> and go up near the upper end, where you will ſee the ſign of two Faces under a Hood, juſt at the corner of <hi>Diſſembling-Alley.</hi> So they gave her thanks for her Directions, and went directly to <hi>Backbiter</hi>'s Houſe, and ſeiz'd him; but he huft and bounc'd, and told them he valued none of them of a farthing.</p>
+            </sp>
+            <sp>
+               <speaker>Conſtable.</speaker>
+               <p>Mr. <hi>Backbiter,</hi> the innocenter you are, the better it will be for you. So they had him along, but he would fain have been let go, and endeavoured to make his Eſcape, but they were able to manage him: Then he threatens them, ſay<g ref="char:EOLhyphen"/>ing he was not the Perſon. O, ſaid <hi>Examination</hi> the H. Conſtable, ſearch thy own Heart as we have ſearched for thee! Ay, ſaid the Petty Conſtable <hi>Prove-all,</hi> it will appear whether thou art the Man, when thou comeſt to thy Trial. So they had him before Juſtice <hi>Order,</hi> who was alſo Sheriff for the Corporation and County that year, who takes him into Examination; but <hi>Backbiter</hi> de<g ref="char:EOLhyphen"/>nies his Name, and ſaith he ſcorns it. And pleaſe your Worſhip, ſaid he, I had that Name given me by my Parents, but I renounced it.</p>
+            </sp>
+            <sp>
+               <speaker>Juſtice.</speaker>
+               <p>Pray, what may one call your Name now?</p>
+               <p>Priſoner. <hi>Chriſtian,</hi> and pleaſe your Worſhip.</p>
+               <p>Ay, ſaid Juſtice <hi>Order,</hi> and a diſorderly one too; I have heard you changed your Name, but your Nature was never changed, as your im<g ref="char:EOLhyphen"/>moral Actions have demonſtrated. I find you
+<pb n="11" facs="tcp:172138:6"/> are the Perſon, and to Priſon you ſhall go.</p>
+            </sp>
+            <sp>
+               <speaker>Backbiter.</speaker>
+               <p>I intreat your Worſhip to accept of Bail.</p>
+            </sp>
+            <sp>
+               <speaker>Juſtice.</speaker>
+               <p>Who are your Bail, Mr. <hi>Backbiter?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Backbiter.</speaker>
+               <p>Sir, I have a Kinſwoman, Madam <hi>Fawning</hi> Widow, and <hi>Henry Hypocrite</hi> Eſq;.</p>
+            </sp>
+            <sp>
+               <speaker>Juſtice.</speaker>
+               <p>No, Sirrah, I ſhall accept of no ſuch Bail. Clerk, write his <hi>Mittimus,</hi> which runs to this effect.</p>
+               <q>To <hi>Nathaniel Newman,</hi> Priſon-Keeper of the Corporation and County of <hi>Chriſt-Church</hi> and <hi>Chriſtianity:</hi> This is to require you to take into ſafe Cuſtody the Body of the Priſoner Mr. <hi>Whiſpering-Backbiter,</hi> and you ſhall keep him in cloſe Confinement till he ſhall be diſ<g ref="char:EOLhyphen"/>charged by due courſe of Law; for the which this <hi>Mittimus</hi> ſhall be your Warrant.</q>
+            </sp>
+            <sp>
+               <speaker>Backbiter.</speaker>
+               <p>I pray your Worſhip to accept of Bail: I have a third Perſon, my near Kinſman, he is worth a thouſand Pounds, and he is willing to be bound Body for Body for me.</p>
+            </sp>
+            <sp>
+               <speaker>Juſtice.</speaker>
+               <p>Where doth your Kinſman live? and what is his Name?</p>
+            </sp>
+            <sp>
+               <speaker>Backbiter.</speaker>
+               <p>And pleaſe you, Sir, his Name is Mr. <hi>Levi Liar,</hi> he lives in <hi>Prating-Row.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Juſtice.</speaker>
+               <p>If he were worth ten thouſand Pounds, I would not take his word for a farthing.</p>
+               <p>The Conſtable and Headborough conduct him ſafely to Priſon, and deliver him with the <hi>Mitti<g ref="char:EOLhyphen"/>mus</hi> into the hands and care of the Priſon-Keeper,
+<pb n="12" facs="tcp:172138:7"/> 
+                  <hi>&amp;c.</hi> Now <hi>Backbiter</hi> is much dejected: if you had been there and put your Ear to the Key-hole, you might have heard him mutter out theſe melancholy Verſes.</p>
+               <lg>
+                  <l>
+                     <hi>Alas, alas, have I backbited many,</hi>
+                  </l>
+                  <l>
+                     <hi>And whiſper'd Falſhoods into others Ears?</hi>
+                  </l>
+                  <l>
+                     <hi>I little thought it ſhould be known by any;</hi>
+                  </l>
+                  <l>
+                     <hi>Alas, on the Houſe-top it all appears!</hi>
+                  </l>
+                  <l>
+                     <hi>The Mask I wore is pulled off my Face;</hi>
+                  </l>
+                  <l>
+                     <hi>I think upon the Evil I have done:</hi>
+                  </l>
+                  <l>
+                     <hi>I ſee there's coming on me great Diſgrace,</hi>
+                  </l>
+                  <l>
+                     <hi>And from it I can ſee no way to run.</hi>
+                  </l>
+               </lg>
+            </sp>
+            <p>THE Seſſions being come, the Right Ho<g ref="char:EOLhyphen"/>nourable the Lord Chief Juſtice <hi>Fear-God</hi> is the Judg, with the honourable Mr. <hi>Rule-well</hi> Mayor, and Juſtice <hi>Order</hi> Sheriff; and Mr. <hi>Church-Diſcipline</hi> Recorder, as alſo the Attorny-General to proſecute the Laws of our Soveraign againſt the Criminal, with the Under-Sheriff Mr. <hi>Learn-Rule;</hi> with other Juſtices of the Peace and <hi>Quo<g ref="char:EOLhyphen"/>rum.</hi> The Bench being ſat, the Sheriff com<g ref="char:EOLhyphen"/>mands the Priſon-Keeper Mr. <hi>Newman</hi> to put <hi>Backbiter</hi> to the Bar, which is done accordingly. Then the Judg proceeds to read his Commiſſion, which impowered him to hear Cauſes, and de<g ref="char:EOLhyphen"/>termine Matters in behalf of our Soveraign, and the great Charter of our Corporation and Common<g ref="char:EOLhyphen"/>wealth. In the ſaid Commiſſion was alſo inſerted,
+<pb n="13" facs="tcp:172138:7"/> the Duty of Mr. <hi>Rule-well</hi> the Mayor, and Mr. <hi>Church-Diſcipline</hi> Recorder; ſhewing that they muſt act in conjunction with the Judg, the ho<g ref="char:EOLhyphen"/>nourable <hi>Fear-God,</hi> for the ſuppreſſing all Diſ<g ref="char:EOLhyphen"/>orders, that Juſtice be not perverted, the Innocent wronged, and the Guilty go free, but that the Right of all Heaven-born Subjects be preſerved in Life, Name and Subſtance, according to that Statute-Law given to qualify Rulers, 2 <hi>Sam. 23. 3. He that ruleth amongſt Men muſt be juſt, ruling in the fear of God:</hi> In which Diligence is re<g ref="char:EOLhyphen"/>quired, <hi>Rom. 12. 8. He that ruleth, with Diligence.</hi> That they muſt not <hi>judg according to outward appearance, but judg righteous Judgment;</hi> Joh. 7. 24. without knowing of Faces, or partially fa<g ref="char:EOLhyphen"/>vouring of Cauſes, <hi>&amp;c.</hi>
+            </p>
+            <p>The Jury being warned to appear, Mr. <hi>Ready-Scribe,</hi> Clerk of the Seſſions, is commanded to read over their Names, and Mr. <hi>Conſcience</hi> the Crier to call them by Name diſtinctly. The Clerk reads the Liſt of their Names; and the Crier calls them aloud by Name.</p>
+            <list>
+               <item>Hate-Strife,</item>
+               <item>Love-Brother,</item>
+               <item>Society,</item>
+               <item>Condeſcenſion,</item>
+               <item>Patience,</item>
+               <item>Plain-dealing,</item>
+               <item>Faithful,</item>
+               <item>Charity,</item>
+               <item>Hope-well,</item>
+               <item>Pray-well,</item>
+               <item>Humility,</item>
+               <item>Concord.</item>
+            </list>
+            <p>Good Men and true. Stand forth and hear your Charge.</p>
+            <sp>
+               <pb n="14" facs="tcp:172138:8"/>
+               <speaker>Crier.</speaker>
+               <p>Silence about the Court there.</p>
+            </sp>
+            <sp>
+               <speaker>Judg.</speaker>
+               <p>Gentlemen of the Jury, you ſhall care<g ref="char:EOLhyphen"/>fully hear, and faithfully and impartially try the Cauſe depending betwixt our Soveraign and the Priſoner at the Bar; and according to the Evi<g ref="char:EOLhyphen"/>dence, and the Oath you have taken, a faithful and juſt Verdict you ſhall bring in according to the beſt of your Underſtandings; and ſo the Lord help and direct you. <hi>Whiſpering-Backbiter,</hi> Hold up thy Hand. Clerk of the Seſſions, read his Indict<g ref="char:EOLhyphen"/>ment, which runs to this effect.</p>
+            </sp>
+            <sp>
+               <speaker>Clerk.</speaker>
+               <p>
+                  <hi>Whiſpering-Backbiter,</hi> Thou ſtandeſt here indicted by the Name of <hi>Whiſpering-Backbiter;</hi> thou waſt made free of this honourable Corpora<g ref="char:EOLhyphen"/>tion of <hi>Chriſt-Church,</hi> and admitted to the Pri<g ref="char:EOLhyphen"/>vileges thereof, as a Member of the ſame: But thou not having the Fear of God ſo before thine Eyes as thou oughteſt to have had, haſt been guilty of many foul Crimes; not only in offering Violence to our Sheriff, Mr. <hi>Order,</hi> and the Re<g ref="char:EOLhyphen"/>corder Mr. <hi>Church-Diſcipline,</hi> Perſons to be highly honoured and eſteemed in our Corporation, who are as Walls to our City; yea, thou haſt been guilty of wounding of <hi>Love-Truth</hi> in his Name and Livelihood by thy laying him on the back<g ref="char:EOLhyphen"/>ſide; thou haſt broken the Peace, and ſowed and ſtirred up Strife in the Corporation, and Diſcord amongſt Brethren; thou haſt broken both the old and new Charters of our Corporation: Herein thou haſt manifeſted not only the breach of thy Corporation-Oath, but alſo thy great Inſolency and Rebellion againſt our Soveraign Lord, his Crown, and Dignity.</p>
+            </sp>
+            <sp>
+               <pb n="15" facs="tcp:172138:8"/>
+               <speaker>Judg.</speaker>
+               <p>Mr. <hi>Backbiter,</hi> What canſt thou ſay to this thy Indictment? Art thou guilty or not guilty?</p>
+            </sp>
+            <sp>
+               <speaker>Priſoner.</speaker>
+               <p>My Lord, I am indicted by a wrong Name; I changed my Name, as I told the Wor<g ref="char:EOLhyphen"/>ſhipful the Sheriff; my Name is <hi>Chriſtian Pro<g ref="char:EOLhyphen"/>feſſor,</hi> my Lord.</p>
+               <p>Sheriff <hi>Order.</hi> Yes, Mr. <hi>Backbiter,</hi> you did tell me of changing your old Name for a new; but you ſhewed no ſigns of any other change, no new Birth, no new Creature, or Newneſs of Life, in Qualities or Qualifications; and what advantage is it to have a new Name, when the old Man with his Deeds is not put off? <hi>Epheſ. 4. 22. Rev.</hi> 3. 1.</p>
+            </sp>
+            <sp>
+               <speaker>Backbiter.</speaker>
+               <p>If I muſt go by this odious Name of <hi>Whiſpering-Backbiter,</hi> I muſt be content to bear it as my Burden, but I hoped my new would have carried me above all ſuſpicion; or at leaſt have preſerved me from being called into queſtion.</p>
+            </sp>
+            <sp>
+               <speaker>Recorder.</speaker>
+               <p>It will appear in his Trial, whether he be the Perſon expreſſed in the Indictment or not.</p>
+            </sp>
+            <sp>
+               <speaker>Judg.</speaker>
+               <p>What ſayſt thou? Art thou guilty or not guilty?</p>
+            </sp>
+            <sp>
+               <speaker>Backbiter.</speaker>
+               <p>I beſeech your Lordſhip, that I may have the Liberties and Privileges of a Freeman; there are two of the Jury eſpecially that I have great reaſon to object againſt, for I know they are diametrically oppoſite to me in their Minds and Diſpoſitions.</p>
+            </sp>
+            <sp>
+               <speaker>Judg.</speaker>
+               <p>Who are the Perſons you object againſt?</p>
+            </sp>
+            <sp>
+               <speaker>Backbiter.</speaker>
+               <p>My Lord, there is the Foreman, Mr. <hi>Hate-Strife,</hi> I cannot endure him; and the laſt Man Mr. <hi>Concord:</hi> and there is Mr. <hi>Charity,</hi>
+                  <pb n="16" facs="tcp:172138:9"/> and Mr. <hi>Society,</hi> Men that have no kindneſs for me; yea I can juſtly object againſt them all.</p>
+            </sp>
+            <sp>
+               <speaker>Judg.</speaker>
+               <p>No, Sirrah, we know them to be good, faithful and honourable Perſons; by the ſame rule you may object againſt Me, the Mayor, She<g ref="char:EOLhyphen"/>riff and Recorder. Anſwer to thy Indictment.</p>
+            </sp>
+            <sp>
+               <speaker>Backbiter.</speaker>
+               <p>I hope your Lordſhip will allow me to have a Counſel, for I cannot ſpeak in my own Defence as ſome can.</p>
+            </sp>
+            <sp>
+               <speaker>Judg.</speaker>
+               <p>Yes, you ſhall be allowed the favour of a Counſel.</p>
+            </sp>
+            <sp>
+               <speaker>Backbiter.</speaker>
+               <p>I thank your Lordſhip.</p>
+            </sp>
+            <sp>
+               <speaker>Judg.</speaker>
+               <p>Anſwer: Art thou guilty or not guilty?</p>
+            </sp>
+            <sp>
+               <speaker>Backbiter.</speaker>
+               <p>Not guilty, my Lord.</p>
+            </sp>
+            <sp>
+               <speaker>Judg.</speaker>
+               <p>By whom wilt thou be tried?</p>
+            </sp>
+            <sp>
+               <speaker>Backbiter.</speaker>
+               <p>By my Soveraign and my Country.</p>
+            </sp>
+            <sp>
+               <speaker>Attorney General.</speaker>
+               <p>If your Lordſhip pleaſeth, I ſhall open the Cauſe by way of Breviate, and ſhall diſcover the Diſpoſition and manner of the Life and Actions of <hi>Backbiter</hi> ever ſince I was <hi>Diſcipline</hi> Recorder of our Corporation.</p>
+            </sp>
+            <sp>
+               <speaker>Judg.</speaker>
+               <p>Do ſo; but pray with what brevity you can.</p>
+            </sp>
+            <sp>
+               <speaker>Attorney General.</speaker>
+               <p>As for the Man, he is to be conſidered in the common Gender, Man or Wo<g ref="char:EOLhyphen"/>man: Some of the learned in our Laws, upon that Statute, <hi>Levit.</hi> 19. 16. compare him to a Pedlar, who carries Wares about to utter and diſpoſe of to Cuſtomers: So he carries Reports and Tales from Houſe to Houſe. Another ſaith, on that Statute, <hi>Pſal. 15. 3. He that backbiteth not with his Tongue,</hi> &amp;c. or ſlandereth not, defameth not
+<pb n="17" facs="tcp:172138:9"/> the Hebrew word (<gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>) from whence <hi>Regel</hi> a Foot is derived, properly notes a going to and fro, prying and ſpying, and carrying Tales and Rumours; and is uſed for defaming or calumnia<g ref="char:EOLhyphen"/>ting by craft or guile, as <hi>Ainſworth</hi> ſaith, Back<g ref="char:EOLhyphen"/>biting is uſed for all crafty deceitful abuſe of the Tongue. Backbiters and Whiſperers, ſaith <hi>Down<g ref="char:EOLhyphen"/>ham,</hi> go about after the manner of Spies, go up and down diſſembling their Malice, that they may ſpy the Faults and Defects of others, of which they make a malicious relation to ſuch as will give ear to the Slander: So that backbiting is a mali<g ref="char:EOLhyphen"/>cious defaming of one behind his back. A Back<g ref="char:EOLhyphen"/>biter ſpeaketh openly evil of another behind his back: but Whiſperer ſignifies privacy; the de<g ref="char:EOLhyphen"/>ſign of whiſpering and backbiting is, the one to ſeparate Friendſhip, the other to hinder ones Fame: Saith Mr. <hi>Leigh</hi> in his <hi>Crit. Sac. Obtrectatio</hi> or <hi>Detractio.</hi> Pſal. 120. 3, 4. <hi>A deceitful Tongue,</hi> and <hi>a falſe Tongue are ſharp Arrows of the Al<g ref="char:EOLhyphen"/>mighty, with Coals of Juniper,</hi> which are the hot<g ref="char:EOLhyphen"/>teſt Coals of all Wood, muſt be their Portion. It's one that by falſe or true report doth hurt the Name or Credit of another behind his back; and is expreſſed in our Charters, both old and new, under theſe ſix acceptations; a Slanderer, a falſe Accuſer, a Whiſperer, a Backbiter, a Tale-bearer, or Defamer, <hi>&amp;c.</hi> and is ranked with the greateſt of Criminals; <hi>Rom. 1. 30. Backbiters, haters of God, deſpiteful, proud, Boaſters,</hi> &amp;c. 2 Cor. 12. 20. <hi>Envyings, Wrath, Strife, Backbitings, Whiſ<g ref="char:EOLhyphen"/>perings,
+<pb n="18" facs="tcp:172138:10"/> Swellings, Tumults:</hi> theſe go in con<g ref="char:EOLhyphen"/>junction. This is the Perſon that would fain be called <hi>Chriſtian,</hi> the effects of whoſe Actions are ſo fatally hurtful to the Peace and Proſperity of our Corporation of <hi>Chriſt-Church,</hi> to the deſtroying of Chriſtian Friendſhip, as further will appear.</p>
+            </sp>
+            <sp>
+               <speaker>Judg.</speaker>
+               <p>Theſe are intolerable things, not to be ſuffered in the City or Country of <hi>Chriſtianity:</hi> yea, the permitting ſuch may be of a dangerous tendency; <hi>For he that bridles not his Tongue, his Religion is vain:</hi> James 1. 26.</p>
+            </sp>
+            <sp>
+               <speaker>Sheriff.</speaker>
+               <p>And pleaſe your Lordſhip, let the Evi<g ref="char:EOLhyphen"/>dence againſt <hi>Backbiter</hi> be called.</p>
+            </sp>
+            <sp>
+               <speaker>Judg.</speaker>
+               <p>Mr. <hi>Clerk,</hi> let the firſt Evidence be called.</p>
+            </sp>
+            <sp>
+               <speaker>Clerk.</speaker>
+               <p>Crier, call Mr. <hi>Moral-Heathen.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Crier.</speaker>
+               <p>Mr. <hi>Heathen,</hi> O yes, O yes, Mr. <hi>Moral-Heathen.</hi> Here: Ready, Sir; but I cannot get in. Make way for the Evidence there. He is ſworn.</p>
+            </sp>
+            <sp>
+               <speaker>Judg.</speaker>
+               <p>Mr. <hi>Moral-Heathen;</hi> Do you know the Priſoner at the Bar?</p>
+            </sp>
+            <sp>
+               <speaker>Heathen.</speaker>
+               <p>Yes, my Lord.</p>
+            </sp>
+            <sp>
+               <speaker>Judg.</speaker>
+               <p>How long have you known him?</p>
+            </sp>
+            <sp>
+               <speaker>Heathen.</speaker>
+               <p>But ſince I came into the Coaſt of <hi>Chriſtianity:</hi> And I have wondered to hear him defame others, and be ſuffered ſo long. <hi>Socrates,</hi> one of our Philoſophers, ſaith, there is not a worſe thing than a deceitful and defaming Tongue. Yea, my Lord, the Life and Acts of <hi>Whiſpering<g ref="char:punc">▪</g> Backbiter</hi> contradict the Doctrine taught us.
+<pb n="19" facs="tcp:172138:10"/> 
+                  <hi>Plato</hi> ſaith, We muſt not believe him that ſlanders or tells a Lie of another; for in like manner will he bely thee to another Man. It's the Caution of <hi>Philotas</hi> to beware of Spies and Tale-bearers. Yea, when that <hi>Alexander</hi> the Great heard of another's Defamation, he clapt his Finger on his Lips, conjuring as it were a ſtrict ſilence of another's Diſgrace. <hi>Theophraſtus</hi> taught us, that it were ſafer to truſt an unbridled Horſe, than an untempered Speech, or an unbridled Tongue. It's fooliſh to let Words want Excuſes or Apologies afterwards: For our <hi>Zeno</hi> taught that we ſhould dip our Tongue in our Mind before we permit it to ſpeak. And <hi>Plato</hi> taught his Scholars, that if one obſerved another commit a fault, he muſt firſt ask himſelf whether he had not done as bad or worſe? and not proclaim it abroad. Tho we were allowed to hate our Enemies by ſome of our Philoſophers, yet always to love our own So<g ref="char:EOLhyphen"/>ciety: But the Priſoner cuts with the Tongue thoſe in the ſame Profeſſion. Our <hi>Scipio</hi> could ſay, that he had rather <hi>Hannibal</hi> ſhould eat his Heart with Salt, being his Enemy, than that <hi>Lil<g ref="char:EOLhyphen"/>lius</hi> his Friend ſhould give him an ill word. So hatefully do we reſent the backbiting Slanders of our profeſſed Friends. And this is what I had to ſay at preſent, my Lord.</p>
+            </sp>
+            <sp>
+               <speaker>Judg.</speaker>
+               <p>Your Teſtimony is very clear, and much to the caſe in hand, Mr. <hi>Heathen,</hi> and I give you thanks for theſe Inſtances; you have ſaid enough, I deſire you to withdraw.</p>
+            </sp>
+            <sp>
+               <pb n="20" facs="tcp:172138:11"/>
+               <speaker>Crier.</speaker>
+               <p>Make way for the Evidence to go out there.</p>
+            </sp>
+            <sp>
+               <speaker>Judg.</speaker>
+               <p>Doſt thou hear, Mr. <hi>Backbiter?</hi> thou wouldſt needs be called <hi>Chriſtian,</hi> and keep thy Freedom in our Corporation; but here is a moral Heathen hath quite ſhamed thee: Are they tender of one anothers Diſgrace, and doſt thou dip thy Tongue in Gall, and whet it as a Sword, and bend thy Bow to ſhoot thy Arrows, even bitter words, <hi>Pſal.</hi> 84. 3. to wound and grieve thy Brother?</p>
+            </sp>
+            <sp>
+               <speaker>Backbiter.</speaker>
+               <p>My Lord, as to what Mr. <hi>Heathen</hi> hath ſaid, he may ſpeak it in ſpite againſt me; for the <hi>Heathens</hi> were great Enemies to us <hi>Chri<g ref="char:EOLhyphen"/>ſtians</hi> formerly, and uſed to clothe us in Bear<g ref="char:EOLhyphen"/>skins: He hath only ſaid this to make me odious, my Lord.</p>
+            </sp>
+            <sp>
+               <speaker>Judg.</speaker>
+               <p>Thou haſt made thy ſelf odious in the ſight of the Heathen: when they perſecuted us, they could ſay this of us; Behold how they love one another! But now they may ſay, Behold how they hate, backbite, and belie one another!</p>
+            </sp>
+            <sp>
+               <speaker>Attorney General.</speaker>
+               <p>And pleaſe your Lordſhip, let Mr. <hi>Love-truth</hi> be examined; I know he hath ſuffered much by the Priſoner as well as my ſelf in that relation I ſtand to our Sovereign Lord.</p>
+            </sp>
+            <sp>
+               <speaker>Judg.</speaker>
+               <p>Call Mr. <hi>Love-truth</hi> into Court.</p>
+            </sp>
+            <sp>
+               <speaker>Crier.</speaker>
+               <p>
+                  <hi>Love-truth,</hi> O yes, O yes, Mr. <hi>Love-truth.</hi> Here. Ready. But I cannot get in: O Murder! Murder!</p>
+            </sp>
+            <sp>
+               <speaker>Judg.</speaker>
+               <p>What's the matter there?</p>
+            </sp>
+            <sp>
+               <pb n="21" facs="tcp:172138:11"/>
+               <speaker>Love-truth.</speaker>
+               <p>My Lord, here is one of <hi>Backbiter</hi>'s Friends had almoſt ſtrangled me.</p>
+            </sp>
+            <sp>
+               <speaker>Judg.</speaker>
+               <p>What is his Name?</p>
+            </sp>
+            <sp>
+               <speaker>Church-Diſcipline.</speaker>
+               <p>I know him, my Lord, his Name is <hi>Carry-Tale,</hi> he dwells under the ſame roof with <hi>Backbiter.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Judg.</speaker>
+               <p>Mr. <hi>Newman,</hi> take him into cuſtody.</p>
+            </sp>
+            <sp>
+               <speaker>Attorney General.</speaker>
+               <p>Mr. <hi>Love-truth,</hi> pray, as you are on your Oath, acquaint my Lord and the Jury with what you know concerning the Priſo<g ref="char:EOLhyphen"/>ner at the Bar.</p>
+            </sp>
+            <sp>
+               <speaker>Judg.</speaker>
+               <p>Mr. <hi>Love-truth,</hi> look upon the Priſoner; Do you know him?</p>
+            </sp>
+            <sp>
+               <speaker>Love-truth.</speaker>
+               <p>Yes, my Lord, to my damage: but as for the wrong he hath done me, I could freely forgive him; tho as he hath been an Enemy to our Sovereign, and hath diſhonoured the Truth, which ſhould be dear to us, and hath grieved and wounded our Brethren, I ſhall give in my Teſti<g ref="char:EOLhyphen"/>mony againſt him.</p>
+            </sp>
+            <sp>
+               <speaker>Judg.</speaker>
+               <p>Mr. <hi>Love-truth,</hi> be as brief as you can.</p>
+            </sp>
+            <sp>
+               <speaker>Love-truth.</speaker>
+               <p>My Lord, he is a Perſon full of Prejudice, and very credulous, believes any lying or flying report, eſpecially againſt one that is not in his Affections, as few are that ſincerely love the Truth: And when he hath got a falſe Report or Slander by the end, he makes it up ſo that beſure it loſeth nothing by carriage: Thus, like <hi>a grievous Revolter, he walks with Slanders;</hi> Jer. 6. 28. And where he comes, if there be any in the Room that will not hear, nor take up Reports,
+<pb n="22" facs="tcp:172138:12"/> then he puts his Mouth to the Ears of them that will, and whiſpers it into their Heads, and then lifts up his Eyes and Hands as tho he were ſorry, and ſo begets a belief in the Judgments of the ignorant, which have never rightly conſidered the Charters of our Corporation: And many times he enjoins them to ſecrecy; ſo that when they meet the Perſons ſlandered, they cannot get open their Lips, but they look a ſquint, as tho they were caſting their Eyes over the Beans to ſee if the Barley were ripe; for Suſpicion is always pictured ſquint-eyed: Yea, my Lord, he hath come with his Pack to my Houſe, as Mr. <hi>Church-Diſcipline</hi> hath obſerved out of our old Charter, <hi>Levit.</hi> 19. 16. that a Tale-bearer, or Backbiter, is compared to a Pedlar that goes up and down with his Pack: So he hath offered his Wares to me, but I being tender of Truth and my Neighbour; and remembring what an antient wiſe Preacher hath ſaid, that as <hi>the North Wind driveth away Rain, ſo doth an angry Coun<g ref="char:EOLhyphen"/>tenance a backbiting Tongue,</hi> Prov. 25. 23. I frowned upon him, and told him he muſt go to the Perſon of whom he heard it, and to the Per<g ref="char:EOLhyphen"/>ſon that was thus defamed, and know the certain truth of the matter, before he run about declaring it at <hi>Dan,</hi> and publiſhing it at <hi>Askelon.</hi> And up<g ref="char:EOLhyphen"/>on this he takes up his Pack, and away he goes, and hath never come near me ſince: Yea, my Lord, if he can hear of any fault that hath been committed, if it were long ſince, if it hath been heard, determined, remitted and buried, yet this
+<pb n="23" facs="tcp:172138:12"/> 
+                  <hi>Backiter</hi> hath been for digging it up and reviving it, verifying a ſaying in our old Charter, <hi>Prov. 16. 27. An ungodly Man diggeth up evil; and in his Lips is a burning Fire.</hi> And this, fearing I have intruded upon your Lordſhip's Patience, is what I have to ſay at preſent, my Lord.</p>
+            </sp>
+            <sp>
+               <speaker>Judg.</speaker>
+               <p>Theſe are foul and unſufferable Practices.</p>
+            </sp>
+            <sp>
+               <speaker>Love-truth.</speaker>
+               <p>My Lord, I could ſay much more of things of this nature, how haſty and diligent he hath been in this Evil of Detraction.</p>
+            </sp>
+            <sp>
+               <speaker>Judg.</speaker>
+               <p>There hath been enough ſaid at preſent, Mr. <hi>Love-truth.</hi>
+               </p>
+               <p>The Bench ariſeth, and the Court is adjourned till two of the Clock in the Afternoon.</p>
+               <p>The Priſon-Keeper Mr. <hi>Newman</hi> remands <hi>Backbiter</hi> to the Priſon again, not denying his Friends to come to ſee him. So there came Mrs. <hi>Buſy-body,</hi> Mr. <hi>Liar,</hi> Mr. <hi>Blind-Zeal, Pre<g ref="char:EOLhyphen"/>judice, Hate-Peace,</hi> and ſeveral others, whoſe Names I took no account of; ſo he ſent for his Counſel Mr. <hi>Equivocator,</hi> and gave him his Fee, telling him he was afraid it would go hard with him if he did not ſpeak, and his Evidence did not ſwear to the purpoſe, to juſtify his Proceedings.</p>
+               <p>The hour being come, Mr. <hi>Newman</hi> haſtens the Priſoner to the Court. When the Judg, with the Mayor, Recorder and Sheriffs, with the Juſtices of the Peace and <hi>Quorum</hi> were ſat, Mr. <hi>Newman</hi> was commanded to put up <hi>Whiſpering Backbiter</hi> to the Bar; which was done accordingly.</p>
+            </sp>
+            <sp>
+               <pb n="24" facs="tcp:172138:13"/>
+               <speaker>Attorny General.</speaker>
+               <p>Mr. <hi>Clerk</hi> of the Seſſions, What further Evidence have you againſt the Pri<g ref="char:EOLhyphen"/>ſoner?</p>
+            </sp>
+            <sp>
+               <speaker>Clerk.</speaker>
+               <p>Here is Mr. <hi>
+                     <g ref="char:V">Ʋ</g>nity</hi> ſubpaena'd to appear.</p>
+            </sp>
+            <sp>
+               <speaker>Judg.</speaker>
+               <p>Let him be called.</p>
+            </sp>
+            <sp>
+               <speaker>Crier.</speaker>
+               <p>
+                  <hi>
+                     <g ref="char:V">Ʋ</g>nity,</hi> O yes, O yes, Mr. <hi>
+                     <g ref="char:V">Ʋ</g>nity.</hi> I am here, my Lord; but I dare not come into Court till <hi>Backbiter</hi> and his Friends are ſearched.</p>
+            </sp>
+            <sp>
+               <speaker>Judg.</speaker>
+               <p>What are you afraid of, Mr. <hi>
+                     <g ref="char:V">Ʋ</g>nity?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>
+                  <g ref="char:V">Ʋ</g>nity.</speaker>
+               <p>Why, my Lord, I know they uſe to carry white Powder about them, with which they uſe to ſhoot thoſe they have a prejudice againſt, and it murders a Man in his Name before he can hear the Report.</p>
+            </sp>
+            <sp>
+               <speaker>Judg.</speaker>
+               <p>That is Treaſon by the Law, there dare be no ſuch an Attempt in Court.</p>
+            </sp>
+            <sp>
+               <speaker>
+                  <g ref="char:V">Ʋ</g>nity<g ref="char:punc">▪</g>
+               </speaker>
+               <p>My Lord, <hi>They are not afraid to ſpeak evil of Dignities;</hi> 2 Pet. 2. 10.</p>
+               <p>Being ſearched, it appeared they had left thoſe Inſtruments at home.</p>
+            </sp>
+            <sp>
+               <speaker>Judg.</speaker>
+               <p>Mr. <hi>
+                     <g ref="char:V">Ʋ</g>nity,</hi> Pray how long have you known the Priſoner?</p>
+            </sp>
+            <sp>
+               <speaker>
+                  <g ref="char:V">Ʋ</g>nity.</speaker>
+               <p>My Lord, ever ſince there have been Swellings, Tumults, Wrath, Strife and Debates, they all came into our Corporation with <hi>Whiſper<g ref="char:EOLhyphen"/>ing Backbiter,</hi> 2 Cor. 12. 20.</p>
+            </sp>
+            <sp>
+               <speaker>Attorny General.</speaker>
+               <p>My Lord, and Mr. Sheriff <hi>Order,</hi> you know right-well the Confuſion that hath been in ſome Companies in our Corporation of <hi>Chriſt Church;</hi> and undoubtedly it hath been for want of regarding what you and I have en<g ref="char:EOLhyphen"/>deavoured
+<pb n="25" facs="tcp:172138:13"/> to maintain in conjunction with Mr. <hi>Fear-God,</hi> namely, Diſcipline and Order; if it pleaſe your Lordſhip, let Mr. <hi>
+                     <g ref="char:V">Ʋ</g>nity</hi> give in his Evidence.</p>
+            </sp>
+            <sp>
+               <speaker>Judg.</speaker>
+               <p>Mr. <hi>
+                     <g ref="char:V">Ʋ</g>nity,</hi> be as brief and expreſs as you can.</p>
+            </sp>
+            <sp>
+               <speaker>
+                  <g ref="char:V">Ʋ</g>nity.</speaker>
+               <p>I deſire to have the liberty to ſpeak in the preſence of this honourable Court; for he <hi>whoſe Hatred is covered by Deceit, his Wickedneſs ſhall be ſhewed before the whole Congregation,</hi> Prov. 26. 26, 28. For <hi>a lying Tongue hateth thoſe that are afflicted by it, and a flattering Mouth worketh ruin.</hi> It was accounted good and pleaſant to dwell together in Unity, <hi>Pſal.</hi> 133. 1. eſpecially Brethren in one Society; <hi>Endeavouring to keep the <g ref="char:V">Ʋ</g>nity of the Spirit in the bond of Peace,</hi> Epheſ. 4. 3. <hi>Till we all come to the unity of the Faith,</hi> ver. 13. But, my Lord, the Priſoner hath been a miſ<g ref="char:EOLhyphen"/>chievous Inſtrument in ſetting particular Societies together by the Ears; by him alſo neighbourly. Union and Friendſhip hath been broken. May be ſome different apprehenſions have been about ſome Sentences in our Charter; then <hi>Backbiter</hi> comes in and blows up the fire of Contention, and ſets them at work to ſmite one another on the back<g ref="char:EOLhyphen"/>ſide with the Tongue, crying out, Hereticks, Ido<g ref="char:EOLhyphen"/>laters, <hi>&amp;c.</hi> becauſe they cannot ſee through their Eye-holes; as tho it were poſſible, yea the like<g ref="char:EOLhyphen"/>lieſt way to work a Reformation by Defamation; like him mentioned by Dr. <hi>Taylor,</hi> that ſeeing a Flea on his Neighbour's Forehead, goes to knock
+<pb n="26" facs="tcp:172138:14"/> it on the head with his Hammer, and ſo knocks his Neighbour's Brains out. Thus, my Lord, doth <hi>Whiſpering-Backbiter</hi> think to ſlander Men out of the faults he imagines them to be in; when alas, inſtead of healing, <hi>The words of a Tale bearer are as Wounds that go down to the innermoſt parts;</hi> Prov. 18. 8. Yea, my Lord, I have known when that great Union and Amity hath been betwixt two Perſons, yea and Companies in our Corporation, till <hi>Backbiter</hi> hath been at work, and In carrying his Pack with all he could pick up, hath uttered or whiſpered what hath ſoon broke the Bond of Unity. Prov. 16. 28. <hi>A fro<g ref="char:EOLhyphen"/>ward Man ſoweth Strife, and a Whiſperer ſepa<g ref="char:EOLhyphen"/>rateth chief Friends.</hi> Yea, my Lord, ſuch Pre<g ref="char:EOLhyphen"/>judice and Inveteracy hath been begot by <hi>Back<g ref="char:EOLhyphen"/>biter</hi>'s means, that it hath appeared next to an impoſſibility to reconcile them, as Mr. Sheriff <hi>Order,</hi> and Mr. <hi>Church-Diſcipline</hi> know right-well. And this is what I have to ſay at preſent, my Lord.</p>
+            </sp>
+            <sp>
+               <speaker>Attorny General.</speaker>
+               <p>My Lord, I very well know what Mr. <hi>
+                     <g ref="char:V">Ʋ</g>nity</hi> ſaith to be true, and ſo doth Mr. <hi>Sheriff</hi> alſo. There are other Evidences may be called if your Lordſhip pleaſe.</p>
+            </sp>
+            <sp>
+               <speaker>Judg.</speaker>
+               <p>I think there have ſufficient Teſtimonies been given in againſt him to prove him guilty according to his Indictment: And if further oc<g ref="char:EOLhyphen"/>caſion ſhould be, they ſhall be examin'd. Mr. <hi>Back<g ref="char:EOLhyphen"/>biter,</hi> what Reaſon canſt thou give why Sentence according to the Law of our Corporation ſhould
+<pb n="27" facs="tcp:172138:14"/> not be paſſed upon thee? Thou haſt heard what evident Teſtimonies have been given in againſt thee.</p>
+            </sp>
+            <sp>
+               <speaker>Backbiter.</speaker>
+               <p>My Lord, you were pleaſed to allow me Counſel to ſpeak for me, and plead my Cauſe; for alas, my Lord, I know not how to ſpeak for my ſelf.</p>
+            </sp>
+            <sp>
+               <speaker>Attorny General.</speaker>
+               <p>No, Mr. <hi>Backbiter,</hi> you have ſpoken ſo much falſly againſt others, that you have nothing truly to ſay for your ſelf.</p>
+            </sp>
+            <sp>
+               <speaker>Judg.</speaker>
+               <p>where is your Counſel? What is his Name? Let him appear.</p>
+            </sp>
+            <sp>
+               <speaker>Backbiter.</speaker>
+               <p>My Lord, his Name is <hi>Equivocator,</hi> a Kinſman of mine.</p>
+            </sp>
+            <sp>
+               <speaker>Judg.</speaker>
+               <p>Where is he?</p>
+            </sp>
+            <sp>
+               <speaker>Crier.</speaker>
+               <p>Mr. <hi>Equivocator.</hi> Here, Sir. Why do you not attend your Client's Cauſe?</p>
+            </sp>
+            <sp>
+               <speaker>Equivocator.</speaker>
+               <p>Here, ready, my Lord, and I am fee'd to plead the Priſoner's Cauſe; and I think, my Lord, he is a good Man in the main; and tho it may be true what hath been ſaid by theſe Gentlemen, that have witneſſed againſt him, that he carries Reports from one to another, this is no new thing, he firſt receives it, and why ſhould he keep it in his Mind? If he hath heard of the <hi>defaming of many, and others ſaying, Report, and we will report it;</hi> Jer. 20. 10. Why ſhould not he take the ſame liberty? Beſides, my Lord, if he doth ſometimes add to the Report or Accuſation, he hath heard it is but to amplify it, and to make it more taking and convincing to them to whom
+<pb n="28" facs="tcp:172138:15"/> he carries it; for what is a Report or Story if it finds no Credit in the Hearers? Moreover, ſeve<g ref="char:EOLhyphen"/>ral other Circumſtances ſhould be conſidered, as it may be he can hear but with one Ear, and ſo cannot hear both Parties, but reports it according as he hears it; as alſo they whom he backbites<g ref="char:punc">▪</g> as you are pleaſed to call it, may be ſuch as are more eſteemed and applauded in the Corporation than he, and their Graces and Virtue excels him and his: and therefore his deſign may be good, that ſo he may keep up his Fame equal with others. He is not the firſt that hath envied the commendable Fame and Deſerts of others; there was <hi>David</hi> hated others Proſperity: And I have alſo read a Paſſage out of <hi>Plutarch</hi> of <hi>Ariſtides<g ref="char:punc">▪</g>
+                  </hi> Baniſhment, called <hi>Oſtraciſm.</hi> His Accuſer be<g ref="char:EOLhyphen"/>ing asked what Wrong <hi>Ariſtides</hi> had done him? he reply'd, None, neither do I know him, but it grieves me to hear every body call him a juſt Man. If this was a cauſe of Baniſhment, well might it procure hard words; for Men naturally hate to be out-ſtript either in worldly or ſpiritual Riches. And, my Lord, beſides—</p>
+            </sp>
+            <sp>
+               <speaker>Judg.</speaker>
+               <p>Hold, Mr. <hi>Equivocator,</hi> you run too faſt.</p>
+            </sp>
+            <sp>
+               <speaker>Attorny General.</speaker>
+               <p>You muſt not think, Mr. <hi>E<g ref="char:EOLhyphen"/>quivocator,</hi> to ſham off the Crimes at this rate. You ſay he is a good Man in the main, pray in what main? The main of a good Man is to love our Sovereign above all, and his Neighbour as himſelf: This is inſerted in our old Charter, and reviv'd in the new, <hi>Deut. 6. 5. Levit.</hi> 19. 16 - 18.
+<pb n="29" facs="tcp:172138:15"/> and his Neighbour as himſelf, <hi>Mat.</hi> 22. 37 - 40. which cannot be done by a detracting Tale<g ref="char:EOLhyphen"/>bearer. And again, you'll ſee how he is reſent<g ref="char:EOLhyphen"/>ed in our Corporation, as fair a face as you would put on his bad Cauſe. <hi>Envy, Murder, Debates, Deceits, Malignity, Whiſperings, Back<g ref="char:EOLhyphen"/>biters, haters of God,</hi> &amp;c. <hi>Rom.</hi> 1. 29, 30. Pray where is his Goodneſs when he is a Companion with ſuch a Gang of mercenary Wretches? And ſaying, <hi>Report, and we will report,</hi> Jer. 20. 10. was the Practice of the great Enemies of our City and Commonwealth. And whereas you would vindicate his adding to a Report; I am ſatisfied that he that will add to a Report, will raiſe one too when he pleaſeth, which is expreſly contrary to our old Charter and new: for it is ſaid, <hi>Thou ſhalt not raiſe a falſe Report; put not thy hand with the wicked to be an unrighteous Witneſs;</hi> Exod. 23. 1. Now if he takes liberty to add, what doth he leſs than put his hand with the wicked to be an unfaithful Witneſs? Again, by the ſame rule, he may improve every little Infirmity into a mountainous Guilt; and the little or ſmall Freckle into a Leproſy. What Reputation can be ſecured from ſuch, who have their dead Flies to caſt a ſtink on their Brethren at pleaſure, to corrupt all their odorous Virtues? And as to your Inſtance of <hi>Ariſtides</hi>'s Baniſhment, it's recorded as an Inſtance of Heathen Cruelty; but <hi>Backbiter</hi> out-does the Cruelty of <hi>Oſtraciſm,</hi> as far as Death is worſe than Baniſhment: for in murdering the Name he
+<pb n="30" facs="tcp:172138:16"/> deſtroys the Livelihood; and the <hi>Greeks</hi> have a ſaying, That a Life is no Life without a Liveli<g ref="char:EOLhyphen"/>hood. Yea a Backbiter or Detractor is a Thief, and robs a Man of that which is better than pre<g ref="char:EOLhyphen"/>cious Ointment, or great Riches, <hi>Eccleſ. 7. 1. Prov.</hi> 22. 1.</p>
+            </sp>
+            <sp>
+               <speaker>Equivocator.</speaker>
+               <p>My Lord, all I would further have ſaid, was to deſire that his bad Memory, and the want of the uſe of his right Ear may be conſi<g ref="char:EOLhyphen"/>dered, and that his Evidences may be heard.</p>
+            </sp>
+            <sp>
+               <speaker>Judg.</speaker>
+               <p>Yes, he ſhall have all the favour that can be allowed by the Charter of our Corporation; and if his Evidences are Perſons of any degree of Morality and Repute, they ſhall be heard. Let them be called into Court.</p>
+            </sp>
+            <sp>
+               <speaker>Equivocator.</speaker>
+               <p>Crier, pray call Mrs. <hi>Buſy-body;</hi> ſhe is own Couſin to the Priſoner.</p>
+            </sp>
+            <sp>
+               <speaker>Clerk.</speaker>
+               <p>Crier, call her into Court.</p>
+            </sp>
+            <sp>
+               <speaker>Crier.</speaker>
+               <p>Mrs. <hi>Buſy-body,</hi> O yes, O yes, Mrs. <hi>Buſy-body.</hi> She cannot leave her Twattle. Mrs. <hi>Buſy-body.</hi> Ready, ready, Sir. Why do you not attend the Court?</p>
+            </sp>
+            <sp>
+               <speaker>Buſy-body.</speaker>
+               <p>I have ſo much buſineſs betwixt one Friend or Neighbour and another, that alas I am ſeldom at home, or rarely out of imploy, my Lord.</p>
+            </sp>
+            <sp>
+               <speaker>Judg.</speaker>
+               <p>Pray what was your Imploy?</p>
+            </sp>
+            <sp>
+               <speaker>Buſy-body.</speaker>
+               <p>My Lord, if I hear of any one fail<g ref="char:EOLhyphen"/>ing committed, it's my deſire and endeavour that no body may be ignorant of it: But I remember I have read, <hi>That the Lips of the wiſe ſhall inſtruct
+<pb n="31" facs="tcp:172138:16"/> many:</hi> And this, as my Couſin <hi>Backbiter</hi> hath told me, muſt be by carrying ones failings to ano<g ref="char:EOLhyphen"/>ther.</p>
+            </sp>
+            <sp>
+               <speaker>Judg.</speaker>
+               <p>Didſt thou ever ſeriouſly read over the Charter of our Corporation? I fear that thou ſeldom lookeſt at home.</p>
+            </sp>
+            <sp>
+               <speaker>Conſtable.</speaker>
+               <p>No, my Lord, when I ſearch'd for <hi>Buſy-body,</hi> I ſaw her Houſe all out of order, and ſhe was juſt going out.</p>
+            </sp>
+            <sp>
+               <speaker>Judg.</speaker>
+               <p>How did you know ſhe was going out?</p>
+            </sp>
+            <sp>
+               <speaker>Conſtable.</speaker>
+               <p>Why, my Lord, ſhe had two Glaſſes in her hand, and I have been informed of it, and that by ſome that had experience of it.</p>
+            </sp>
+            <sp>
+               <speaker>Judg.</speaker>
+               <p>Hold: Pray, Mr. <hi>Conſtable,</hi> what Glaſſes were they?</p>
+            </sp>
+            <sp>
+               <speaker>Conſtable.</speaker>
+               <p>My Lord, one was a magnifying Glaſs, and the other a multiplying Glaſs; with the former ſhe with her Couſin <hi>Backbiter</hi> makes a ſmall failing a great one, and with the latter one failing many.</p>
+            </sp>
+            <sp>
+               <speaker>Judg.</speaker>
+               <p>It's a ſhame that ſuch ignorant and per<g ref="char:EOLhyphen"/>tinacious Practices ſhould be ſuffered in the Sub<g ref="char:EOLhyphen"/>urbs of our Corporation; let her be taken into Cuſtody.</p>
+            </sp>
+            <sp>
+               <speaker>Crier.</speaker>
+               <p>She is withdrawn and abſconded, my Lord: but I ſhall take care to have her apprehen<g ref="char:EOLhyphen"/>ded; for it's one Man's work to have a ſerious ſight <hi>of his own Sins, and judg himſelf aright.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Clerk of the Seſſ.</speaker>
+               <p>Call Mr. <hi>Zeal</hi> into Court.</p>
+            </sp>
+            <sp>
+               <pb n="32" facs="tcp:172138:17"/>
+               <speaker>Crier.</speaker>
+               <p>Mr. <hi>Zeal,</hi> O yes, O yes, Mr. <hi>Zeal.</hi> Ready, my Lord, but I cannot ſee the way into Court.</p>
+            </sp>
+            <sp>
+               <speaker>Whiſpering-Backbiter.</speaker>
+               <p>Pray take him by the hand, Mr. <hi>Equivocator,</hi> for he is almoſt as blind as a Poſt. He is handed up.</p>
+            </sp>
+            <sp>
+               <speaker>Judg.</speaker>
+               <p>Old Gentleman, what is your Name, <hi>Zeal?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Zeal.</speaker>
+               <p>My Name is properly <hi>Blind Zeal,</hi> my Lord.</p>
+            </sp>
+            <sp>
+               <speaker>Judg.</speaker>
+               <p>I thought ſo, I have heard much of you.</p>
+            </sp>
+            <sp>
+               <speaker>Zeal.</speaker>
+               <p>Yes, my Lord, I was with <hi>Saul</hi> when he would have ſlain the <hi>Gibeonites,</hi> 2 Sam. 21. 2. and with <hi>Jehu,</hi> 2 Kings 10. 16. and with <hi>Saul,</hi> now called <hi>Paul,</hi> Acts 9. 1. <hi>Phil.</hi> 3. 6. yea, and with thoſe <hi>Jews,</hi> my Lord, <hi>Rom.</hi> 10. 2. Yea, my Lord, and I know Mr. <hi>Backbiter</hi> to be a very zealous Man by this, for he cannot reſt if he hears the Report, true or falſe, of another's fail<g ref="char:EOLhyphen"/>ing; alas he can reſt no more than he that lies upon a Bed of Thorns, till others know it; and this is his Zeal, my Lord. Yea I have obſerved, that he and <hi>Carry-tale</hi> that lives under his Roof, have ſtrove to out-run each other to carry the bad News, as <hi>Ahimaaz</hi> and <hi>Cuſhi</hi> did, 2 <hi>Sam.</hi> 18. 21-23. this was their Zeal, and endeavour to eaſe their minds, my Lord.</p>
+            </sp>
+            <sp>
+               <speaker>Judg.</speaker>
+               <p>Old Gentleman, you are rightly named; but I fear you never learned rightly to diſtinguiſh about what your Zeal ſhould be exerciſed in
+<pb n="33" facs="tcp:172138:17"/> Gal. 4. 18. <hi>It's good to be zealouſly affected al<g ref="char:EOLhyphen"/>ways in a good thing:</hi> What if it be all falſe, and thou in cenſuring another doſt but ſentence thy ſelf, like <hi>David</hi> in <hi>Nathan</hi>'s Parable? 2 <hi>Sam.</hi> 12. 7. and thou ſheweſt thy ſelf rather to be an Accuſer of the Brethren, than a Reclaimer of them that are ſuppoſed to have falled, ſuch a Zeal will appear to be but diabolical. Application ſhould be made to the ſuppoſed Sinner, <hi>Gal. 6. 1. 2 Tim.</hi> 2. 25. to regain him in a ſpirit of Meek<g ref="char:EOLhyphen"/>neſs: but it's evident that <hi>Backbiter</hi> carries his Teeth in his Tongue. I remember I have read, that <hi>Bernard</hi> ſaid of himſelf, that he never ſaw another Man ſin, but he was diſtruſtful and jealous of his own Heart; <hi>Ille heri, tu hodie, &amp; ego cras,</hi> he was faulty yeſterday, thou to day, and I may be ſo to morrow: But I do not ſpeak this that Sins ſhould be connived at or diſpenſed with, but that the Order and Diſcipline of our Corpo<g ref="char:EOLhyphen"/>ration may be obſerved.</p>
+            </sp>
+            <sp>
+               <speaker>Clerk of the Seſſ.</speaker>
+               <p>My Lord, here is another Evi<g ref="char:EOLhyphen"/>dence for the Priſoner.</p>
+            </sp>
+            <sp>
+               <speaker>Judg.</speaker>
+               <p>Let him be called into Court.</p>
+            </sp>
+            <sp>
+               <speaker>Crier.</speaker>
+               <p>Mr. <hi>Prejudice,</hi> O yes, O yes, Mr. <hi>Pre<g ref="char:EOLhyphen"/>judice.</hi> Here, I am ready, Sir.</p>
+            </sp>
+            <sp>
+               <speaker>Judg.</speaker>
+               <p>Pray what are you capable to ſay in be<g ref="char:EOLhyphen"/>half of the Priſoner? Do you know him?</p>
+            </sp>
+            <sp>
+               <speaker>Prejudice.</speaker>
+               <p>Yes, my Lord, he is my old Acquain<g ref="char:EOLhyphen"/>tance, I am his near Neighbour.</p>
+            </sp>
+            <sp>
+               <speaker>Judg.</speaker>
+               <p>What other Neighbours have you that are his and your Aſſociates?</p>
+            </sp>
+            <sp>
+               <pb n="34" facs="tcp:172138:18"/>
+               <speaker>Prejudice.</speaker>
+               <p>There is one Mr. <hi>Fawning</hi> that lives in <hi>Diſſembling-Alley,</hi> next door to him; Mr. <hi>Ill<g ref="char:EOLhyphen"/>will,</hi> Mrs. <hi>Carry-tale</hi> that lives under his Roof, and a Relation of his that is much with us, one Mr. <hi>Liar:</hi> And if I may ſpeak for the Priſoner, I never knew him backbite any of us, but he is very friendly to us all; and if he backbites any, there is Mr. <hi>Ill-will</hi> and my ſelf are both commonly with him: and they are ſuch as we have no affection for, my Lord, that he backbites, and we are ſure they do not love us at all.</p>
+               <p>Mr. <hi>Liar.</hi> My Lord, I am deſired by the Pri<g ref="char:EOLhyphen"/>ſoner to ſpeak in his behalf; and if I may be permitted to ſwear, I will take my corporal Oath, that <hi>Whiſpering-Backbiter</hi> and his Friends are all good People.</p>
+            </sp>
+            <sp>
+               <speaker>Judg.</speaker>
+               <p>Hold, Sirrah, your Oath is not to be taken.</p>
+            </sp>
+            <sp>
+               <speaker>Attorny-General.</speaker>
+               <p>My Lord, and you Gentle<g ref="char:EOLhyphen"/>men of the Jury, it is evident there is not one Perſon of any Repute that appears to juſtify <hi>Whiſpering-Backbiter:</hi> What <hi>Prejudice</hi> hath ſaid is invalid. What is Concord amongſt the vileſt of Men in their Wickedneſs, to the true Peace and Unity of Chriſt's Church? <hi>Herod</hi> and <hi>Pilate</hi> were made Friends, that they might be joint Enemies to our Sovereign, <hi>Luke</hi> 23. 12. Yea the Inſernals are at an Agreement amongſt them; <hi>Satan is not divided againſt Satan,</hi> Luke 11. 18.</p>
+            </sp>
+            <sp>
+               <speaker>Judg.</speaker>
+               <p>I ſhall proceed to ſum up the Evi<g ref="char:EOLhyphen"/>dences.</p>
+            </sp>
+            <sp>
+               <pb n="35" facs="tcp:172138:18"/>
+               <speaker>Attorny-General.</speaker>
+               <p>Here is one Evidence more that appears againſt the Priſoner.</p>
+            </sp>
+            <sp>
+               <speaker>Judg.</speaker>
+               <p>Let him be called.</p>
+            </sp>
+            <sp>
+               <speaker>Crier.</speaker>
+               <p>He is here ready, my Lord.</p>
+            </sp>
+            <sp>
+               <speaker>Judg.</speaker>
+               <p>I know him: Pray, Mr. <hi>Divine Know<g ref="char:EOLhyphen"/>ledg,</hi> do you know the Priſoner?</p>
+            </sp>
+            <sp>
+               <speaker>Knowledg.</speaker>
+               <p>Yes, my Lord, but I am a Stran<g ref="char:EOLhyphen"/>ger to him, I ſuppoſe.</p>
+            </sp>
+            <sp>
+               <speaker>Judg. Backbiter,</speaker>
+               <p>Do you know this Gentle<g ref="char:EOLhyphen"/>man?</p>
+            </sp>
+            <sp>
+               <speaker>Backbiter.</speaker>
+               <p>No, my Lord; I never had any real acquaintance with him in all my Life.</p>
+            </sp>
+            <sp>
+               <speaker>Knowledg.</speaker>
+               <p>My Lord, he is an ignorant ſhal<g ref="char:EOLhyphen"/>low Soul; had he but a dram of ſanctified Wiſ<g ref="char:EOLhyphen"/>dom or Divine Grace, he would have learned of Mr. <hi>Morality,</hi> the Porter of our City, to do as he would be done unto: And I would have taught him, and ſhewed him that Frowardneſs was in his Heart; and that ſowing Diſcord among Brethren is that which our Sovereign hates. But, my Lord, he ſcorned acquaintance with either of us; would put his Finger in his Ear, and ſcorned (<hi>Prov.</hi> 6. 14 - 19.) to hear Counſel. How could he expect to keep his Place and Privileges in our Corporation, who hath ſo long abuſed them and his Brethren?</p>
+            </sp>
+            <sp>
+               <speaker>Judg.</speaker>
+               <p>You have given a very cogent Teſtimo<g ref="char:EOLhyphen"/>ny againſt him, Mr. <hi>Knowledg.</hi> I ſhall ſum up the Evidences.</p>
+               <p>Gentlemen of the Jury, you have heard what Mr. <hi>Heathen,</hi> Mr. <hi>Love-truth,</hi> Mr. <hi>
+                     <g ref="char:V">Ʋ</g>nity,</hi> and
+<pb n="36" facs="tcp:172138:19"/> now Mr. <hi>Knowledg</hi> have ſaid, as alſo what ſcan<g ref="char:EOLhyphen"/>dalous Perſons appeared in the Priſoner's behalf; but care will be taken to purge all ſuch out of the Suburbs of our Corporation. Gentlemen, you have heard ſome of thoſe Statutes mentioned that <hi>Whiſpering-Backbiter</hi> hath broken: that Sta<g ref="char:EOLhyphen"/>tute <hi>Exod. 23. 1. Thou ſhalt not raiſe</hi> (or, <hi>Hebr.</hi> receive) <hi>a falſe Report.</hi> Levit. 19. 16. <hi>Thou ſhalt not go up and down as a Tale-bearer.</hi> Yea it is condemned in our new Charter; <hi>Luke 3. 14. Accuſe no Man falſly:</hi> This is expreſly againſt <hi>Backbiter.</hi> Yea, how frequently is he ranked with the worſt of Men? 2 <hi>Tim. 3. 3. Without natural Affections, falſe Accuſers, deſpiſers of thoſe that are good, Traitors,</hi> &amp;c. Yea, when the queſtion is put, <hi>Who ſhall abide in thy Ta<g ref="char:EOLhyphen"/>bernacle? or aſcend the holy Hill of</hi> Zion? <hi>He that backbiteth not with his Tongue;</hi> or, <hi>he that taketh not up, or receiveth not a Reproach againſt his Neighbour:</hi> Pſal. 15. 2, 3. &amp; 24. 2. You ſee, Gentlemen, the Evil is ſo great, that it ſhuts out of the Celeſtial City, and the preſence of our Sovereign for ever. Yea, that moral Precept that is a binding Statute, of loving his Neighbour as himſelf, is violated. O but <hi>Backbiter</hi> he for<g ref="char:EOLhyphen"/>gets himſelf! never regarding that Precept, if a Brother of the Corporation be overtaken in a fault, <hi>to reſtore him in a ſpirit of meekneſs; con<g ref="char:EOLhyphen"/>ſidering thy ſelf, leſt thou ſhouldſt have the like occaſion;</hi> Gal. 6. 1. As Mr. <hi>Moral Heathen</hi> gave a hint of <hi>Plato</hi>'s Precept to his Scholars, if they
+<pb n="37" facs="tcp:172138:19"/> heard a Report of Evil of another, or ſaw ſome failing, preſently to ask themſelves this queſtion <hi>Num ego feci Tale?</hi> Have not I done the like my ſelf, or worſe? So that you are to conſider how ſhort he comes of Morality, who endea<g ref="char:EOLhyphen"/>vours to eat out the Repute of his Neighbour, as hath been witneſſed. Miſchief is in his Heart; yea, <hi>They ſharpen their Tongues like a Serpent; the poiſon of Adders is under their Lips;</hi> Pſal. 140. 2, 3. So that, Gentlemen, as you regard the Honour of our Sovereign, the Repute of the Worſhip and Devotion uſed in our City, and the Peace of the Companies in our Corporation, you muſt find for our Soveraign againſt the Priſoner at the Bar: And ſo the Lord direct you all.</p>
+               <p>The Jury went out, but ſoon agreed unani<g ref="char:EOLhyphen"/>mouſly to bring <hi>Whiſpering-Backbiter</hi> in guilty according to his Indictment, and the Evidences againſt him. They return.</p>
+            </sp>
+            <sp>
+               <speaker>Crier.</speaker>
+               <p>Make way for the Jury; make way there. They are all come up to the Bar.</p>
+            </sp>
+            <sp>
+               <speaker>Judg.</speaker>
+               <p>Gentlemen of the Jury, are you all agreed?</p>
+            </sp>
+            <sp>
+               <speaker>Foreman.</speaker>
+               <p>Yes, my Lord, and have alſo agreed to give in our particular Verdicts.</p>
+            </sp>
+            <sp>
+               <speaker>Hate-Strife.</speaker>
+               <p>My Lord, I ever hated to ſee things done through Strife, <hi>Phil.</hi> 2. 3. but to my Grief I have ſeen Strife and Violence in
+<pb n="38" facs="tcp:172138:20"/> our City, <hi>Pſal.</hi> 55. 9. and I have traced home one of the chiefeſt cauſes of it to <hi>Backbiter's</hi> very door; ſo that I am conſcious to my ſelf he is guilty according to his Indictment, and evident Teſtimonies.</p>
+            </sp>
+            <sp>
+               <speaker>Love-Brother.</speaker>
+               <p>I am ſure, my Lord, he hath been a ſower of Enmity, and a deſtroyer of Uni<g ref="char:EOLhyphen"/>ty: It's high time to take him off; for, <hi>where there is no Tale-bearer, Strife ceaſeth;</hi> Prov. 26. 20. There is no greater a Demonſtration of our being beloved Citizens of <hi>Chriſt's-Church,</hi> than to love one another, <hi>John</hi> 13. 35. the true Badg and Character of Chriſtianity; and if this <hi>Backbiter</hi> be not taken off, our Charter will be broken and loſt.</p>
+            </sp>
+            <sp>
+               <speaker>Society.</speaker>
+               <p>I aſſent to what Mr. <hi>Love-Brother</hi> ſaith; for, my Lord, if he be ſuffered to ſow Strife as he hath done, alas a Nation, City or Family divided is brought to ruin, <hi>Luke</hi> 11. 17. And what can be a more effectual way to break Human and Divine Society? for as a falſe Wit<g ref="char:EOLhyphen"/>neſs he <hi>ſpeaketh Lies, and ſoweth Diſcord among Brethren;</hi> Prov. 6. 19.</p>
+            </sp>
+            <sp>
+               <speaker>Condeſcenſion.</speaker>
+               <p>My Lord, I agree that he is guilty; and indeed I have wondered at his obſti<g ref="char:EOLhyphen"/>nacy, that ſuch plain Convictions, not only from the Freemen of our Corporation, but alſo by Mr. <hi>Heathen,</hi> enough to have melted him
+<pb n="39" facs="tcp:172138:20"/> to confeſs and forſake, that he may find Mer<g ref="char:EOLhyphen"/>cy, <hi>Prov.</hi> 28. 13. ſhould not work upon him: but he obſtinately covered his Sins.</p>
+            </sp>
+            <sp>
+               <speaker>Patience.</speaker>
+               <p>My Lord, I think he hath been born with too long: tho I can bear as much as ſome, yet the very ſight of <hi>Backbiter</hi> in our Corporation hath greatly provoked me: And tho by an angry Countenance I have drove him away, <hi>Prov.</hi> 25. 2, 3. yet I could never drive him out of his wicked Practice. I agree he is guilty.</p>
+            </sp>
+            <sp>
+               <speaker>Plain-dealing.</speaker>
+               <p>My Lord, I am not a Man of many words; but to be plain, if ever Man for<g ref="char:EOLhyphen"/>feited the Freedom and Privileges of <hi>Chriſt's Church, Whiſpering-Backbiter</hi> hath done it, for he hath proclaimed his Folly: for he that hideth Hatred with lying Lips, and he that uttereth Slanders is a Fool; <hi>his Wickedneſs ought to be ſhewed before the whole Congregation,</hi> Prov. 26. 26. that others may fear.</p>
+            </sp>
+            <sp>
+               <speaker>Faithful.</speaker>
+               <p>I have long wondered at the de<g ref="char:EOLhyphen"/>ceit and falſhood of <hi>Backbiter;</hi> Chriſtians that are free of our Corporation ſhould carry their very Hearts in their Hands, and Meanings in their Fore-heads; but his Mouth hath framed Deceit, <hi>Rom.</hi> 3. 13. He is guilty according to his In<g ref="char:EOLhyphen"/>dictment, my Lord.</p>
+            </sp>
+            <sp>
+               <pb n="40" facs="tcp:172138:21"/>
+               <speaker>Charity.</speaker>
+               <p>I cannot have a good thought of him, tho I have ever been unwilling to think any evil, 1 <hi>Cor.</hi> 13. 5. till it hath evidently appeared: but, my Lord, this <hi>Backbiter</hi> is ſtill forging or picking up Thunder-bolts, againſt which no Innocency can be an Armour of De<g ref="char:EOLhyphen"/>fence: He is guilty. I can have no Charity for ſuch a one that caſteth Firebrands, Arrows and Death at his Neighbou<gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>, <hi>Prov.</hi> 26. 18. and counts it ſport.</p>
+            </sp>
+            <sp>
+               <speaker>Hope-well.</speaker>
+               <p>I agree, my Lord, that he is evi<g ref="char:EOLhyphen"/>dently guilty; yet I would not be without ſome hopes that the Order and Diſcipline of our Cor<g ref="char:EOLhyphen"/>poration will effectually laſh him into better manners; for tho Folly hath been bound up in his Heart, and <hi>he hath wrought Folly in our</hi> Iſrael, <hi>Deut.</hi> 22. 21. yet <hi>the Rod of Correction may drive it from him;</hi> Prov. 22. 15.</p>
+            </sp>
+            <sp>
+               <speaker>Pray-well.</speaker>
+               <p>My Lord, it ſhall be my requeſt, that he may learn to take heed that he offends not with his Tongue, but that he may keep his Mouth as with a Bridle, <hi>Pſal.</hi> 39. 1. and that he may learn to guide his Tongue, and not whet his Tongue like a Sword; and that he may ſhoot no more of his Arrows, even bitter words, <hi>Pſal.</hi> 84. 3-8.</p>
+            </sp>
+            <sp>
+               <pb n="41" facs="tcp:172138:21"/>
+               <speaker>Humility.</speaker>
+               <p>My Lord, I agree that the Priſoner is guilty according to his Indictment; and it's evident that it's the Arrogancy of his Spirit that cauſeth him to deſpiſe and ſcandalize others, like that Hypocrite of the Synagogue, <hi>Luke</hi> 18. 9-11. Pride, Suſpicion and Envy are always for ſtaining the clear Fame, and caſting the firſt Stone.</p>
+            </sp>
+            <sp>
+               <speaker>Concord.</speaker>
+               <p>My Lord, I am clearly of the ſame mind with Mr. <hi>Hate-Strife</hi> the Foreman, and do ſay he is a ſower of Contention, and where that is, there muſt needs be <hi>Confuſion, and every evil Work;</hi> James 3. 16. and therefore my Verdict is, that he may be no longer ſuffered in our Corporation.</p>
+            </sp>
+            <sp>
+               <speaker>Judg.</speaker>
+               <p>Gentlemen, I am glad to ſee you all ſo harmonious in your Verdicts, and ſo unanimouſly ſhewed your Loyalty to our Soveraign: and in<g ref="char:EOLhyphen"/>deed you have ſpoke the very minds of our Mayor, Sheriff, and Recorder, namely, <hi>Rule<g ref="char:EOLhyphen"/>well, Order</hi> and <hi>Diſcipline;</hi> and I perceive you have given great Satisfaction to our Corporation in general. <hi>Backbiter,</hi> hold up thy hand, and hear thy Sentence.</p>
+            </sp>
+            <sp>
+               <speaker>Crier.</speaker>
+               <p>Silence about the Court on pain of Diſpleaſure.</p>
+            </sp>
+            <sp>
+               <speaker>Judg.</speaker>
+               <p>
+                  <hi>Backbiter,</hi> thou haſt ſo diſorderly acted, that thou mayſt be no longer a Member of our
+<pb n="42" facs="tcp:172138:22"/> Society, Mr. <hi>Church-Diſcipline</hi> ſhall croſs out thy Name inrolled in our Corporation-Book, and Mr. <hi>Newman</hi> Priſon-keeper ſhall convey thee back to Confinement, and in thy Apartment there he ſhall cauſe thee to ſit down upon the Stool of Repentance, and conſider what thou haſt done, whom thou haſt wronged and defamed; what En<g ref="char:EOLhyphen"/>vyings, Strife, Debates and Whiſperings thou haſt cauſed, 1 <hi>Cor.</hi> 12. 20. Thy Lodging ſhall be upon a Bed of Sorrows; yea thy Meat and Drink ſhall be the Bread and Water of Godly Sorrow and internal Afflictions, till thou haſt attained to a rent Heart, and a broken Spirit, and canſt demonſtrate a Repentance to Life; then thou ſhalt ſtudy to make Reſtitution for all the Wrongs thou haſt done in cauſing the Reputa<g ref="char:EOLhyphen"/>tion of thy Brethren to lie bleeding; then he ſhall put thee upon the Heart-work and hard work of Mortification, that with the ſound of thy Tongue, and blaſt of thy Lips thou mayſt never cauſe the Reputation of thy Brethren to fall flat as the Walls of <hi>Jericho.</hi> I have read the ſaying of an antient Freeman of our City, that he obſerved that there was rarely a Member in our Corporation in his day, that had attained to any degree of Excellency, but there hath been ready a black Character by ſome defaming Tongue to clap upon him: So that Stars of the firſt Magnitude by this means have been eclipſed. And thou <hi>Backbiter</hi> ſhalt be taught by Mr. <hi>Newman:</hi> till thou doſt learn to bridle
+<pb n="43" facs="tcp:172138:22"/> thy Tongue, all thy Pretences to Religion will be vain, <hi>James</hi> 1. 16. And when thou art be<g ref="char:EOLhyphen"/>come a new Man, then, and not till then, ſhalt thou be reſtored to the Privileges and Immunities of our Corporation of <hi>Chriſt-Church.</hi> And ſo the Lord have Mercy upon thee, and grant thee Repentance to Life never to be repented of.</p>
+            </sp>
+            <closer>Amen.</closer>
+         </div>
+         <div type="poem">
+            <pb n="44" facs="tcp:172138:23"/>
+            <lg>
+               <l>
+                  <hi>BE gone my little Book, thy Meſſage do,</hi>
+               </l>
+               <l>
+                  <hi>Give thy Advice to all, both Friend and Fo:</hi>
+               </l>
+               <l>
+                  <hi>Shew to the World the Evil of thoſe Wrongs</hi>
+               </l>
+               <l>
+                  <hi>That have been done by theſe defaming Tongues:</hi>
+               </l>
+               <l>
+                  <hi>And if they ſlight thee, let them ſo, and ſpare not;</hi>
+               </l>
+               <l>
+                  <hi>If thou art lov'd by Chriſtians, then I care not.</hi>
+               </l>
+               <l>
+                  <hi>I know there's ſome will ſay, their Tongues their own,</hi>
+               </l>
+               <l>
+                  <hi>And do reſolve to be controul'd by none;</hi>
+               </l>
+               <l>
+                  <hi>Yet others will thee gladly entertain,</hi>
+               </l>
+               <l>
+                  <hi>And by thy Counſel will advantage gain.</hi>
+               </l>
+               <l>
+                  <hi>Thou ſpeakeſt plain to ſute each Corporation,</hi>
+               </l>
+               <l>
+                  <hi>And doſt afford Advice to all the Nation.</hi>
+               </l>
+               <l>
+                  <hi>For</hi> Cato <hi>ſaith, that both in old and young,</hi>
+               </l>
+               <l>
+                  <hi>Virtue begins with a well-guided Tongue.</hi>
+               </l>
+               <l>
+                  <hi>If ſome detracting Reader ſhall amend,</hi>
+               </l>
+               <l>
+                  <hi>Then thou obtainſt the Writer's chiefeſt end.</hi>
+               </l>
+               <l>
+                  <hi>Lend it not, but let them buy;</hi>
+               </l>
+               <l>
+                  <hi>The Price is low, and ſo am I.</hi>
+               </l>
+            </lg>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+      <back>
+         <div type="to_the_reader">
+            <pb facs="tcp:172138:23"/>
+            <head>Advertiſement.</head>
+            <p>NOte, That the Subſtance of what is here publiſhed, was wrote <hi>Anno</hi> 92. and now at the requeſt of ſome is publiſhed in print, not to reflect upon any Perſon or Perſons, but ſimply and ſincerely to detect that Evil where-ever it is found, or amongſt whomſoever it is tolerated; it being confeſſed by all, that it's very injurious and oppoſite to Love and Charity. Moreover, there are ſome other Criminals that according to this method, may e're long be apprehended and brought to their Trials.</p>
+         </div>
+      </back>
+   </text>
+</TEI>
